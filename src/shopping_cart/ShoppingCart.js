@@ -1,27 +1,21 @@
 import React from 'react';
 import './ShoppingCart.css'
 import USCurrencyFormat from '../util/USCurrencyFormat';
+import ShoppingItem from '../shopping_item/ShoppingItem';
 
 export default class ShoppingCart extends React.Component {
 
+  //Prints the items selected
   summary = () => {
     const selectedFeatures = this.props.selectedFeatures;
     return Object.keys(selectedFeatures).map((feature, idx) => {
       const featureHash = feature + '-' + idx;
       const selectedOption = selectedFeatures[feature];
-
-      return (
-        <div className="summary__option" key={featureHash}>
-          <div className="summary__option__label">{feature} </div>
-          <div className="summary__option__value">{selectedOption.name}</div>
-          <div className="summary__option__cost">
-            {USCurrencyFormat.format(selectedOption.cost)}
-          </div>
-        </div>
-      );
+      return <ShoppingItem key={featureHash} id={featureHash} feature={feature} selectedOption={selectedOption}/>;
     });
   }
 
+  //calculates the price of selected items
   total = () => {
     const selectedFeatures = this.props.selectedFeatures;
     return Object.keys(selectedFeatures).reduce(

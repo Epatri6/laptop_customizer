@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing ShoppingCart Component renders as expected 1`] = `
+<div
+  className="summary__option"
+>
+  <div
+    className="summary__option__label"
+  >
+    Processor
+     
+  </div>
+  <div
+    className="summary__option__value"
+  >
+    17th Generation Intel Core HB (7 Core with donut spare)
+  </div>
+  <div
+    className="summary__option__cost"
+  >
+    $700.00
+  </div>
+</div>
+`;
+
+exports[`Testing ShoppingCart Component renders as expected without props 1`] = `
+<div
+  className="summary__option"
+>
+  <div
+    className="summary__option__label"
+  >
+    
+     
+  </div>
+  <div
+    className="summary__option__value"
+  >
+    
+  </div>
+  <div
+    className="summary__option__cost"
+  >
+    $0.00
+  </div>
+</div>
+`;
