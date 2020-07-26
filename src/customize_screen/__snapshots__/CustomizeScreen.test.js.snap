@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing ShoppingCart Component renders as expected 1`] = `
+<form
+  className="main__form"
+>
+  <h2>
+    Customize your laptop
+  </h2>
+  <fieldset
+    className="feature"
+  >
+    <legend
+      className="feature__name"
+    >
+      <h3>
+        Processor
+      </h3>
+    </legend>
+    <div
+      className="feature__item"
+    >
+      <input
+        checked={true}
+        className="feature__option"
+        id="\\"name\\":\\"17th-Generation-Intel-Core-HB-(7-Core-with-donut-spare)\\"\\"cost\\":700"
+        name="Processor"
+        onChange={[Function]}
+        type="radio"
+      />
+      <label
+        className="feature__label"
+        htmlFor="\\"name\\":\\"17th-Generation-Intel-Core-HB-(7-Core-with-donut-spare)\\"\\"cost\\":700"
+      >
+        17th Generation Intel Core HB (7 Core with donut spare)
+         (
+        $700.00
+        )
+      </label>
+    </div>
+    <div
+      className="feature__item"
+    >
+      <input
+        checked={false}
+        className="feature__option"
+        id="\\"name\\":\\"Professor-X-AMD-Fire-Breather-with-sidewinder-technology\\"\\"cost\\":1200"
+        name="Processor"
+        onChange={[Function]}
+        type="radio"
+      />
+      <label
+        className="feature__label"
+        htmlFor="\\"name\\":\\"Professor-X-AMD-Fire-Breather-with-sidewinder-technology\\"\\"cost\\":1200"
+      >
+        Professor X AMD Fire Breather with sidewinder technology
+         (
+        $1,200.00
+        )
+      </label>
+    </div>
+  </fieldset>
+  <fieldset
+    className="feature"
+  >
+    <legend
+      className="feature__name"
+    >
+      <h3>
+        Operating System
+      </h3>
+    </legend>
+    <div
+      className="feature__item"
+    >
+      <input
+        checked={true}
+        className="feature__option"
+        id="\\"name\\":\\"Ubuntu-Linux-16.04\\"\\"cost\\":200"
+        name="Operating-System"
+        onChange={[Function]}
+        type="radio"
+      />
+      <label
+        className="feature__label"
+        htmlFor="\\"name\\":\\"Ubuntu-Linux-16.04\\"\\"cost\\":200"
+      >
+        Ubuntu Linux 16.04
+         (
+        $200.00
+        )
+      </label>
+    </div>
+    <div
+      className="feature__item"
+    >
+      <input
+        checked={false}
+        className="feature__option"
+        id="\\"name\\":\\"Bodhi-Linux\\"\\"cost\\":300"
+        name="Operating-System"
+        onChange={[Function]}
+        type="radio"
+      />
+      <label
+        className="feature__label"
+        htmlFor="\\"name\\":\\"Bodhi-Linux\\"\\"cost\\":300"
+      >
+        Bodhi Linux
+         (
+        $300.00
+        )
+      </label>
+    </div>
+  </fieldset>
+</form>
+`;
+
+exports[`Testing ShoppingCart Component renders as expected without props 1`] = `
+<form
+  className="main__form"
+>
+  <h2>
+    Customize your laptop
+  </h2>
+</form>
+`;

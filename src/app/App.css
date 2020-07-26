@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font: calc(100% * 0.625) / 1.15 HelveticaNeue, Helvetica, sans-serif;
+}
+
+body {
+  font-size: 1.8rem;
+  line-height: 1.875;
+  color: #252525;
+  margin: 0;
+}
+
+legend > h3 {
+  margin: 0;
+}
+
+main {
+  width: 95%;
+  max-width: 120rem;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}

@@ -1,0 +1,946 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing ShoppingCart Component renders as expected 1`] = `
+<div
+  className="App"
+>
+  <Title />
+  <main>
+    <CustomizeScreen
+      features={
+        Object {
+          "Display": Array [
+            Object {
+              "cost": 1500,
+              "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+            },
+            Object {
+              "cost": 1400,
+              "name": "15.3\\" HGTV (3840 x 2160) Home makeover edition",
+            },
+          ],
+          "Operating System": Array [
+            Object {
+              "cost": 200,
+              "name": "Ubuntu Linux 16.04",
+            },
+            Object {
+              "cost": 300,
+              "name": "Bodhi Linux",
+            },
+          ],
+          "Processor": Array [
+            Object {
+              "cost": 700,
+              "name": "17th Generation Intel Core HB (7 Core with donut spare)",
+            },
+            Object {
+              "cost": 1200,
+              "name": "Professor X AMD Fire Breather with sidewinder technology",
+            },
+          ],
+          "Video Card": Array [
+            Object {
+              "cost": 1150.98,
+              "name": "Toyota Corolla 1.5v",
+            },
+            Object {
+              "cost": 1345,
+              "name": "Mind mild breeze 2000",
+            },
+          ],
+        }
+      }
+      selectedFeatures={
+        Object {
+          "Display": Object {
+            "cost": 1500,
+            "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+          },
+          "Operating System": Object {
+            "cost": 200,
+            "name": "Ubuntu Linux 16.04",
+          },
+          "Processor": Object {
+            "cost": 700,
+            "name": "17th Generation Intel Core HB (7 Core with donut spare)",
+          },
+          "Video Card": Object {
+            "cost": 1150.98,
+            "name": "Toyota Corolla 1.5v",
+          },
+        }
+      }
+      updateFeature={[Function]}
+    />
+    <ShoppingCart
+      selectedFeatures={
+        Object {
+          "Display": Object {
+            "cost": 1500,
+            "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+          },
+          "Operating System": Object {
+            "cost": 200,
+            "name": "Ubuntu Linux 16.04",
+          },
+          "Processor": Object {
+            "cost": 700,
+            "name": "17th Generation Intel Core HB (7 Core with donut spare)",
+          },
+          "Video Card": Object {
+            "cost": 1150.98,
+            "name": "Toyota Corolla 1.5v",
+          },
+        }
+      }
+    />
+  </main>
+</div>
+`;
+
+exports[`Testing ShoppingCart Component renders as expected without props 1`] = `
+<div
+  className="App"
+>
+  <Title />
+  <main>
+    <CustomizeScreen
+      features={Object {}}
+      selectedFeatures={
+        Object {
+          "Display": Object {
+            "cost": 1500,
+            "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+          },
+          "Operating System": Object {
+            "cost": 200,
+            "name": "Ubuntu Linux 16.04",
+          },
+          "Processor": Object {
+            "cost": 700,
+            "name": "17th Generation Intel Core HB (7 Core with donut spare)",
+          },
+          "Video Card": Object {
+            "cost": 1150.98,
+            "name": "Toyota Corolla 1.5v",
+          },
+        }
+      }
+      updateFeature={[Function]}
+    />
+    <ShoppingCart
+      selectedFeatures={
+        Object {
+          "Display": Object {
+            "cost": 1500,
+            "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+          },
+          "Operating System": Object {
+            "cost": 200,
+            "name": "Ubuntu Linux 16.04",
+          },
+          "Processor": Object {
+            "cost": 700,
+            "name": "17th Generation Intel Core HB (7 Core with donut spare)",
+          },
+          "Video Card": Object {
+            "cost": 1150.98,
+            "name": "Toyota Corolla 1.5v",
+          },
+        }
+      }
+    />
+  </main>
+</div>
+`;
+
+exports[`Testing ShoppingCart Component updates item selected when item is clicked 1`] = `
+<App
+  features={
+    Object {
+      "Display": Array [
+        Object {
+          "cost": 1500,
+          "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+        },
+        Object {
+          "cost": 1400,
+          "name": "15.3\\" HGTV (3840 x 2160) Home makeover edition",
+        },
+      ],
+      "Operating System": Array [
+        Object {
+          "cost": 200,
+          "name": "Ubuntu Linux 16.04",
+        },
+        Object {
+          "cost": 300,
+          "name": "Bodhi Linux",
+        },
+      ],
+      "Processor": Array [
+        Object {
+          "cost": 700,
+          "name": "17th Generation Intel Core HB (7 Core with donut spare)",
+        },
+        Object {
+          "cost": 1200,
+          "name": "Professor X AMD Fire Breather with sidewinder technology",
+        },
+      ],
+      "Video Card": Array [
+        Object {
+          "cost": 1150.98,
+          "name": "Toyota Corolla 1.5v",
+        },
+        Object {
+          "cost": 1345,
+          "name": "Mind mild breeze 2000",
+        },
+      ],
+    }
+  }
+>
+  <div
+    className="App"
+  >
+    <Title>
+      <header>
+        <h1>
+          ELF Computing | Laptops
+        </h1>
+      </header>
+    </Title>
+    <main>
+      <CustomizeScreen
+        features={
+          Object {
+            "Display": Array [
+              Object {
+                "cost": 1500,
+                "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+              },
+              Object {
+                "cost": 1400,
+                "name": "15.3\\" HGTV (3840 x 2160) Home makeover edition",
+              },
+            ],
+            "Operating System": Array [
+              Object {
+                "cost": 200,
+                "name": "Ubuntu Linux 16.04",
+              },
+              Object {
+                "cost": 300,
+                "name": "Bodhi Linux",
+              },
+            ],
+            "Processor": Array [
+              Object {
+                "cost": 700,
+                "name": "17th Generation Intel Core HB (7 Core with donut spare)",
+              },
+              Object {
+                "cost": 1200,
+                "name": "Professor X AMD Fire Breather with sidewinder technology",
+              },
+            ],
+            "Video Card": Array [
+              Object {
+                "cost": 1150.98,
+                "name": "Toyota Corolla 1.5v",
+              },
+              Object {
+                "cost": 1345,
+                "name": "Mind mild breeze 2000",
+              },
+            ],
+          }
+        }
+        selectedFeatures={
+          Object {
+            "Display": Object {
+              "cost": 1500,
+              "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+            },
+            "Operating System": Object {
+              "cost": 200,
+              "name": "Ubuntu Linux 16.04",
+            },
+            "Processor": Object {
+              "cost": 1200,
+              "name": "Professor X AMD Fire Breather with sidewinder technology",
+            },
+            "Video Card": Object {
+              "cost": 1150.98,
+              "name": "Toyota Corolla 1.5v",
+            },
+          }
+        }
+        updateFeature={[Function]}
+      >
+        <form
+          className="main__form"
+        >
+          <h2>
+            Customize your laptop
+          </h2>
+          <FeatureSelection
+            feature={
+              Array [
+                Object {
+                  "cost": 700,
+                  "name": "17th Generation Intel Core HB (7 Core with donut spare)",
+                },
+                Object {
+                  "cost": 1200,
+                  "name": "Professor X AMD Fire Breather with sidewinder technology",
+                },
+              ]
+            }
+            featureName="Processor"
+            id="Processor-0"
+            key="Processor-0"
+            selectedFeature={
+              Object {
+                "cost": 1200,
+                "name": "Professor X AMD Fire Breather with sidewinder technology",
+              }
+            }
+            updateFeature={[Function]}
+          >
+            <fieldset
+              className="feature"
+              key="Processor-0"
+            >
+              <legend
+                className="feature__name"
+              >
+                <h3>
+                  Processor
+                </h3>
+              </legend>
+              <FeatureItem
+                featureName="Processor"
+                id="\\"name\\":\\"17th-Generation-Intel-Core-HB-(7-Core-with-donut-spare)\\"\\"cost\\":700"
+                item={
+                  Object {
+                    "cost": 700,
+                    "name": "17th Generation Intel Core HB (7 Core with donut spare)",
+                  }
+                }
+                key="\\"name\\":\\"17th-Generation-Intel-Core-HB-(7-Core-with-donut-spare)\\"\\"cost\\":700"
+                selectedFeature={
+                  Object {
+                    "cost": 1200,
+                    "name": "Professor X AMD Fire Breather with sidewinder technology",
+                  }
+                }
+                updateFeature={[Function]}
+              >
+                <div
+                  className="feature__item"
+                  key="\\"name\\":\\"17th-Generation-Intel-Core-HB-(7-Core-with-donut-spare)\\"\\"cost\\":700"
+                >
+                  <input
+                    checked={false}
+                    className="feature__option"
+                    id="\\"name\\":\\"17th-Generation-Intel-Core-HB-(7-Core-with-donut-spare)\\"\\"cost\\":700"
+                    name="Processor"
+                    onChange={[Function]}
+                    type="radio"
+                  />
+                  <label
+                    className="feature__label"
+                    htmlFor="\\"name\\":\\"17th-Generation-Intel-Core-HB-(7-Core-with-donut-spare)\\"\\"cost\\":700"
+                  >
+                    17th Generation Intel Core HB (7 Core with donut spare)
+                     (
+                    $700.00
+                    )
+                  </label>
+                </div>
+              </FeatureItem>
+              <FeatureItem
+                featureName="Processor"
+                id="\\"name\\":\\"Professor-X-AMD-Fire-Breather-with-sidewinder-technology\\"\\"cost\\":1200"
+                item={
+                  Object {
+                    "cost": 1200,
+                    "name": "Professor X AMD Fire Breather with sidewinder technology",
+                  }
+                }
+                key="\\"name\\":\\"Professor-X-AMD-Fire-Breather-with-sidewinder-technology\\"\\"cost\\":1200"
+                selectedFeature={
+                  Object {
+                    "cost": 1200,
+                    "name": "Professor X AMD Fire Breather with sidewinder technology",
+                  }
+                }
+                updateFeature={[Function]}
+              >
+                <div
+                  className="feature__item"
+                  key="\\"name\\":\\"Professor-X-AMD-Fire-Breather-with-sidewinder-technology\\"\\"cost\\":1200"
+                >
+                  <input
+                    checked={true}
+                    className="feature__option"
+                    id="\\"name\\":\\"Professor-X-AMD-Fire-Breather-with-sidewinder-technology\\"\\"cost\\":1200"
+                    name="Processor"
+                    onChange={[Function]}
+                    type="radio"
+                  />
+                  <label
+                    className="feature__label"
+                    htmlFor="\\"name\\":\\"Professor-X-AMD-Fire-Breather-with-sidewinder-technology\\"\\"cost\\":1200"
+                  >
+                    Professor X AMD Fire Breather with sidewinder technology
+                     (
+                    $1,200.00
+                    )
+                  </label>
+                </div>
+              </FeatureItem>
+            </fieldset>
+          </FeatureSelection>
+          <FeatureSelection
+            feature={
+              Array [
+                Object {
+                  "cost": 200,
+                  "name": "Ubuntu Linux 16.04",
+                },
+                Object {
+                  "cost": 300,
+                  "name": "Bodhi Linux",
+                },
+              ]
+            }
+            featureName="Operating System"
+            id="Operating System-1"
+            key="Operating System-1"
+            selectedFeature={
+              Object {
+                "cost": 200,
+                "name": "Ubuntu Linux 16.04",
+              }
+            }
+            updateFeature={[Function]}
+          >
+            <fieldset
+              className="feature"
+              key="Operating System-1"
+            >
+              <legend
+                className="feature__name"
+              >
+                <h3>
+                  Operating System
+                </h3>
+              </legend>
+              <FeatureItem
+                featureName="Operating System"
+                id="\\"name\\":\\"Ubuntu-Linux-16.04\\"\\"cost\\":200"
+                item={
+                  Object {
+                    "cost": 200,
+                    "name": "Ubuntu Linux 16.04",
+                  }
+                }
+                key="\\"name\\":\\"Ubuntu-Linux-16.04\\"\\"cost\\":200"
+                selectedFeature={
+                  Object {
+                    "cost": 200,
+                    "name": "Ubuntu Linux 16.04",
+                  }
+                }
+                updateFeature={[Function]}
+              >
+                <div
+                  className="feature__item"
+                  key="\\"name\\":\\"Ubuntu-Linux-16.04\\"\\"cost\\":200"
+                >
+                  <input
+                    checked={true}
+                    className="feature__option"
+                    id="\\"name\\":\\"Ubuntu-Linux-16.04\\"\\"cost\\":200"
+                    name="Operating-System"
+                    onChange={[Function]}
+                    type="radio"
+                  />
+                  <label
+                    className="feature__label"
+                    htmlFor="\\"name\\":\\"Ubuntu-Linux-16.04\\"\\"cost\\":200"
+                  >
+                    Ubuntu Linux 16.04
+                     (
+                    $200.00
+                    )
+                  </label>
+                </div>
+              </FeatureItem>
+              <FeatureItem
+                featureName="Operating System"
+                id="\\"name\\":\\"Bodhi-Linux\\"\\"cost\\":300"
+                item={
+                  Object {
+                    "cost": 300,
+                    "name": "Bodhi Linux",
+                  }
+                }
+                key="\\"name\\":\\"Bodhi-Linux\\"\\"cost\\":300"
+                selectedFeature={
+                  Object {
+                    "cost": 200,
+                    "name": "Ubuntu Linux 16.04",
+                  }
+                }
+                updateFeature={[Function]}
+              >
+                <div
+                  className="feature__item"
+                  key="\\"name\\":\\"Bodhi-Linux\\"\\"cost\\":300"
+                >
+                  <input
+                    checked={false}
+                    className="feature__option"
+                    id="\\"name\\":\\"Bodhi-Linux\\"\\"cost\\":300"
+                    name="Operating-System"
+                    onChange={[Function]}
+                    type="radio"
+                  />
+                  <label
+                    className="feature__label"
+                    htmlFor="\\"name\\":\\"Bodhi-Linux\\"\\"cost\\":300"
+                  >
+                    Bodhi Linux
+                     (
+                    $300.00
+                    )
+                  </label>
+                </div>
+              </FeatureItem>
+            </fieldset>
+          </FeatureSelection>
+          <FeatureSelection
+            feature={
+              Array [
+                Object {
+                  "cost": 1150.98,
+                  "name": "Toyota Corolla 1.5v",
+                },
+                Object {
+                  "cost": 1345,
+                  "name": "Mind mild breeze 2000",
+                },
+              ]
+            }
+            featureName="Video Card"
+            id="Video Card-2"
+            key="Video Card-2"
+            selectedFeature={
+              Object {
+                "cost": 1150.98,
+                "name": "Toyota Corolla 1.5v",
+              }
+            }
+            updateFeature={[Function]}
+          >
+            <fieldset
+              className="feature"
+              key="Video Card-2"
+            >
+              <legend
+                className="feature__name"
+              >
+                <h3>
+                  Video Card
+                </h3>
+              </legend>
+              <FeatureItem
+                featureName="Video Card"
+                id="\\"name\\":\\"Toyota-Corolla-1.5v\\"\\"cost\\":1150.98"
+                item={
+                  Object {
+                    "cost": 1150.98,
+                    "name": "Toyota Corolla 1.5v",
+                  }
+                }
+                key="\\"name\\":\\"Toyota-Corolla-1.5v\\"\\"cost\\":1150.98"
+                selectedFeature={
+                  Object {
+                    "cost": 1150.98,
+                    "name": "Toyota Corolla 1.5v",
+                  }
+                }
+                updateFeature={[Function]}
+              >
+                <div
+                  className="feature__item"
+                  key="\\"name\\":\\"Toyota-Corolla-1.5v\\"\\"cost\\":1150.98"
+                >
+                  <input
+                    checked={true}
+                    className="feature__option"
+                    id="\\"name\\":\\"Toyota-Corolla-1.5v\\"\\"cost\\":1150.98"
+                    name="Video-Card"
+                    onChange={[Function]}
+                    type="radio"
+                  />
+                  <label
+                    className="feature__label"
+                    htmlFor="\\"name\\":\\"Toyota-Corolla-1.5v\\"\\"cost\\":1150.98"
+                  >
+                    Toyota Corolla 1.5v
+                     (
+                    $1,150.98
+                    )
+                  </label>
+                </div>
+              </FeatureItem>
+              <FeatureItem
+                featureName="Video Card"
+                id="\\"name\\":\\"Mind-mild-breeze-2000\\"\\"cost\\":1345"
+                item={
+                  Object {
+                    "cost": 1345,
+                    "name": "Mind mild breeze 2000",
+                  }
+                }
+                key="\\"name\\":\\"Mind-mild-breeze-2000\\"\\"cost\\":1345"
+                selectedFeature={
+                  Object {
+                    "cost": 1150.98,
+                    "name": "Toyota Corolla 1.5v",
+                  }
+                }
+                updateFeature={[Function]}
+              >
+                <div
+                  className="feature__item"
+                  key="\\"name\\":\\"Mind-mild-breeze-2000\\"\\"cost\\":1345"
+                >
+                  <input
+                    checked={false}
+                    className="feature__option"
+                    id="\\"name\\":\\"Mind-mild-breeze-2000\\"\\"cost\\":1345"
+                    name="Video-Card"
+                    onChange={[Function]}
+                    type="radio"
+                  />
+                  <label
+                    className="feature__label"
+                    htmlFor="\\"name\\":\\"Mind-mild-breeze-2000\\"\\"cost\\":1345"
+                  >
+                    Mind mild breeze 2000
+                     (
+                    $1,345.00
+                    )
+                  </label>
+                </div>
+              </FeatureItem>
+            </fieldset>
+          </FeatureSelection>
+          <FeatureSelection
+            feature={
+              Array [
+                Object {
+                  "cost": 1500,
+                  "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+                },
+                Object {
+                  "cost": 1400,
+                  "name": "15.3\\" HGTV (3840 x 2160) Home makeover edition",
+                },
+              ]
+            }
+            featureName="Display"
+            id="Display-3"
+            key="Display-3"
+            selectedFeature={
+              Object {
+                "cost": 1500,
+                "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+              }
+            }
+            updateFeature={[Function]}
+          >
+            <fieldset
+              className="feature"
+              key="Display-3"
+            >
+              <legend
+                className="feature__name"
+              >
+                <h3>
+                  Display
+                </h3>
+              </legend>
+              <FeatureItem
+                featureName="Display"
+                id="\\"name\\":\\"15.6\\"-UHD-(3840-x-2160)-60Hz-Bright-Lights-and-Knobs\\"\\"cost\\":1500"
+                item={
+                  Object {
+                    "cost": 1500,
+                    "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+                  }
+                }
+                key="\\"name\\":\\"15.6\\"-UHD-(3840-x-2160)-60Hz-Bright-Lights-and-Knobs\\"\\"cost\\":1500"
+                selectedFeature={
+                  Object {
+                    "cost": 1500,
+                    "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+                  }
+                }
+                updateFeature={[Function]}
+              >
+                <div
+                  className="feature__item"
+                  key="\\"name\\":\\"15.6\\"-UHD-(3840-x-2160)-60Hz-Bright-Lights-and-Knobs\\"\\"cost\\":1500"
+                >
+                  <input
+                    checked={true}
+                    className="feature__option"
+                    id="\\"name\\":\\"15.6\\"-UHD-(3840-x-2160)-60Hz-Bright-Lights-and-Knobs\\"\\"cost\\":1500"
+                    name="Display"
+                    onChange={[Function]}
+                    type="radio"
+                  />
+                  <label
+                    className="feature__label"
+                    htmlFor="\\"name\\":\\"15.6\\"-UHD-(3840-x-2160)-60Hz-Bright-Lights-and-Knobs\\"\\"cost\\":1500"
+                  >
+                    15.6" UHD (3840 x 2160) 60Hz Bright Lights and Knobs
+                     (
+                    $1,500.00
+                    )
+                  </label>
+                </div>
+              </FeatureItem>
+              <FeatureItem
+                featureName="Display"
+                id="\\"name\\":\\"15.3\\"-HGTV-(3840-x-2160)-Home-makeover-edition\\"\\"cost\\":1400"
+                item={
+                  Object {
+                    "cost": 1400,
+                    "name": "15.3\\" HGTV (3840 x 2160) Home makeover edition",
+                  }
+                }
+                key="\\"name\\":\\"15.3\\"-HGTV-(3840-x-2160)-Home-makeover-edition\\"\\"cost\\":1400"
+                selectedFeature={
+                  Object {
+                    "cost": 1500,
+                    "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+                  }
+                }
+                updateFeature={[Function]}
+              >
+                <div
+                  className="feature__item"
+                  key="\\"name\\":\\"15.3\\"-HGTV-(3840-x-2160)-Home-makeover-edition\\"\\"cost\\":1400"
+                >
+                  <input
+                    checked={false}
+                    className="feature__option"
+                    id="\\"name\\":\\"15.3\\"-HGTV-(3840-x-2160)-Home-makeover-edition\\"\\"cost\\":1400"
+                    name="Display"
+                    onChange={[Function]}
+                    type="radio"
+                  />
+                  <label
+                    className="feature__label"
+                    htmlFor="\\"name\\":\\"15.3\\"-HGTV-(3840-x-2160)-Home-makeover-edition\\"\\"cost\\":1400"
+                  >
+                    15.3" HGTV (3840 x 2160) Home makeover edition
+                     (
+                    $1,400.00
+                    )
+                  </label>
+                </div>
+              </FeatureItem>
+            </fieldset>
+          </FeatureSelection>
+        </form>
+      </CustomizeScreen>
+      <ShoppingCart
+        selectedFeatures={
+          Object {
+            "Display": Object {
+              "cost": 1500,
+              "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+            },
+            "Operating System": Object {
+              "cost": 200,
+              "name": "Ubuntu Linux 16.04",
+            },
+            "Processor": Object {
+              "cost": 1200,
+              "name": "Professor X AMD Fire Breather with sidewinder technology",
+            },
+            "Video Card": Object {
+              "cost": 1150.98,
+              "name": "Toyota Corolla 1.5v",
+            },
+          }
+        }
+      >
+        <section
+          className="main__summary"
+        >
+          <h2>
+            Your cart
+          </h2>
+          <ShoppingItem
+            feature="Processor"
+            id="Processor-0"
+            key="Processor-0"
+            selectedOption={
+              Object {
+                "cost": 1200,
+                "name": "Professor X AMD Fire Breather with sidewinder technology",
+              }
+            }
+          >
+            <div
+              className="summary__option"
+              key="Processor-0"
+            >
+              <div
+                className="summary__option__label"
+              >
+                Processor
+                 
+              </div>
+              <div
+                className="summary__option__value"
+              >
+                Professor X AMD Fire Breather with sidewinder technology
+              </div>
+              <div
+                className="summary__option__cost"
+              >
+                $1,200.00
+              </div>
+            </div>
+          </ShoppingItem>
+          <ShoppingItem
+            feature="Operating System"
+            id="Operating System-1"
+            key="Operating System-1"
+            selectedOption={
+              Object {
+                "cost": 200,
+                "name": "Ubuntu Linux 16.04",
+              }
+            }
+          >
+            <div
+              className="summary__option"
+              key="Operating System-1"
+            >
+              <div
+                className="summary__option__label"
+              >
+                Operating System
+                 
+              </div>
+              <div
+                className="summary__option__value"
+              >
+                Ubuntu Linux 16.04
+              </div>
+              <div
+                className="summary__option__cost"
+              >
+                $200.00
+              </div>
+            </div>
+          </ShoppingItem>
+          <ShoppingItem
+            feature="Video Card"
+            id="Video Card-2"
+            key="Video Card-2"
+            selectedOption={
+              Object {
+                "cost": 1150.98,
+                "name": "Toyota Corolla 1.5v",
+              }
+            }
+          >
+            <div
+              className="summary__option"
+              key="Video Card-2"
+            >
+              <div
+                className="summary__option__label"
+              >
+                Video Card
+                 
+              </div>
+              <div
+                className="summary__option__value"
+              >
+                Toyota Corolla 1.5v
+              </div>
+              <div
+                className="summary__option__cost"
+              >
+                $1,150.98
+              </div>
+            </div>
+          </ShoppingItem>
+          <ShoppingItem
+            feature="Display"
+            id="Display-3"
+            key="Display-3"
+            selectedOption={
+              Object {
+                "cost": 1500,
+                "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+              }
+            }
+          >
+            <div
+              className="summary__option"
+              key="Display-3"
+            >
+              <div
+                className="summary__option__label"
+              >
+                Display
+                 
+              </div>
+              <div
+                className="summary__option__value"
+              >
+                15.6" UHD (3840 x 2160) 60Hz Bright Lights and Knobs
+              </div>
+              <div
+                className="summary__option__cost"
+              >
+                $1,500.00
+              </div>
+            </div>
+          </ShoppingItem>
+          <div
+            className="summary__total"
+          >
+            <div
+              className="summary__total__label"
+            >
+              Total
+            </div>
+            <div
+              className="summary__total__value"
+            >
+              $4,050.98
+            </div>
+          </div>
+        </section>
+      </ShoppingCart>
+    </main>
+  </div>
+</App>
+`;

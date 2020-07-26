@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing ShoppingCart Component renders as expected 1`] = `
+<div
+  className="feature__item"
+  key="1"
+>
+  <input
+    checked={false}
+    className="feature__option"
+    id="1"
+    name="Processor"
+    onChange={[Function]}
+    type="radio"
+  />
+  <label
+    className="feature__label"
+    htmlFor="1"
+  >
+    17th Generation Intel Core HB (7 Core with donut spare)
+     (
+    $700.00
+    )
+  </label>
+</div>
+`;
+
+exports[`Testing ShoppingCart Component renders as expected when item is selected 1`] = `
+<div
+  className="feature__item"
+  key="1"
+>
+  <input
+    checked={true}
+    className="feature__option"
+    id="1"
+    name="Processor"
+    onChange={[Function]}
+    type="radio"
+  />
+  <label
+    className="feature__label"
+    htmlFor="1"
+  >
+    17th Generation Intel Core HB (7 Core with donut spare)
+     (
+    $700.00
+    )
+  </label>
+</div>
+`;
+
+exports[`Testing ShoppingCart Component renders as expected without props 1`] = `
+<div
+  className="feature__item"
+  key=""
+>
+  <input
+    checked={true}
+    className="feature__option"
+    id=""
+    name=""
+    onChange={[Function]}
+    type="radio"
+  />
+  <label
+    className="feature__label"
+    htmlFor=""
+  >
+     (
+    $NaN
+    )
+  </label>
+</div>
+`;

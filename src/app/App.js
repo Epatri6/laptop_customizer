@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Title from './title/Title';
-import ShoppingCart from './shopping_cart/ShoppingCart';
-import CustomizeScreen from './customize_screen/CustomizeScreen';
+import Title from '../title/Title';
+import ShoppingCart from '../shopping_cart/ShoppingCart';
+import CustomizeScreen from '../customize_screen/CustomizeScreen';
 import './App.css';
 
 
-class App extends Component {
+export default class App extends Component {
   state = {
     selected: {
       Processor: {
@@ -46,6 +46,8 @@ class App extends Component {
       </div>
     );
   }
-}
 
-export default App;
+  static defaultProps = {
+    features: {}
+  }
+}
