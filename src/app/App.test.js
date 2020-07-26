@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import FeatureSelection from '../feature_selection/FeatureSelection';
 import { shallow, mount } from 'enzyme';
 import toJson from 'enzyme-to-json'
 
