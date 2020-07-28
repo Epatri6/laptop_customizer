@@ -792,152 +792,200 @@ exports[`Testing ShoppingCart Component updates item selected when item is click
           <h2>
             Your cart
           </h2>
-          <ShoppingItem
-            feature="Processor"
-            id="Processor-0"
-            key="Processor-0"
-            selectedOption={
+          <ShoppingSummary
+            selectedFeatures={
               Object {
-                "cost": 1200,
-                "name": "Professor X AMD Fire Breather with sidewinder technology",
+                "Display": Object {
+                  "cost": 1500,
+                  "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+                },
+                "Operating System": Object {
+                  "cost": 200,
+                  "name": "Ubuntu Linux 16.04",
+                },
+                "Processor": Object {
+                  "cost": 1200,
+                  "name": "Professor X AMD Fire Breather with sidewinder technology",
+                },
+                "Video Card": Object {
+                  "cost": 1150.98,
+                  "name": "Toyota Corolla 1.5v",
+                },
+              }
+            }
+          >
+            <div>
+              <ShoppingItem
+                feature="Processor"
+                id="Processor-0"
+                key="Processor-0"
+                selectedOption={
+                  Object {
+                    "cost": 1200,
+                    "name": "Professor X AMD Fire Breather with sidewinder technology",
+                  }
+                }
+              >
+                <div
+                  className="summary__option"
+                  key="Processor-0"
+                >
+                  <div
+                    className="summary__option__label"
+                  >
+                    Processor
+                     
+                  </div>
+                  <div
+                    className="summary__option__value"
+                  >
+                    Professor X AMD Fire Breather with sidewinder technology
+                  </div>
+                  <div
+                    className="summary__option__cost"
+                  >
+                    $1,200.00
+                  </div>
+                </div>
+              </ShoppingItem>
+              <ShoppingItem
+                feature="Operating System"
+                id="Operating System-1"
+                key="Operating System-1"
+                selectedOption={
+                  Object {
+                    "cost": 200,
+                    "name": "Ubuntu Linux 16.04",
+                  }
+                }
+              >
+                <div
+                  className="summary__option"
+                  key="Operating System-1"
+                >
+                  <div
+                    className="summary__option__label"
+                  >
+                    Operating System
+                     
+                  </div>
+                  <div
+                    className="summary__option__value"
+                  >
+                    Ubuntu Linux 16.04
+                  </div>
+                  <div
+                    className="summary__option__cost"
+                  >
+                    $200.00
+                  </div>
+                </div>
+              </ShoppingItem>
+              <ShoppingItem
+                feature="Video Card"
+                id="Video Card-2"
+                key="Video Card-2"
+                selectedOption={
+                  Object {
+                    "cost": 1150.98,
+                    "name": "Toyota Corolla 1.5v",
+                  }
+                }
+              >
+                <div
+                  className="summary__option"
+                  key="Video Card-2"
+                >
+                  <div
+                    className="summary__option__label"
+                  >
+                    Video Card
+                     
+                  </div>
+                  <div
+                    className="summary__option__value"
+                  >
+                    Toyota Corolla 1.5v
+                  </div>
+                  <div
+                    className="summary__option__cost"
+                  >
+                    $1,150.98
+                  </div>
+                </div>
+              </ShoppingItem>
+              <ShoppingItem
+                feature="Display"
+                id="Display-3"
+                key="Display-3"
+                selectedOption={
+                  Object {
+                    "cost": 1500,
+                    "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+                  }
+                }
+              >
+                <div
+                  className="summary__option"
+                  key="Display-3"
+                >
+                  <div
+                    className="summary__option__label"
+                  >
+                    Display
+                     
+                  </div>
+                  <div
+                    className="summary__option__value"
+                  >
+                    15.6" UHD (3840 x 2160) 60Hz Bright Lights and Knobs
+                  </div>
+                  <div
+                    className="summary__option__cost"
+                  >
+                    $1,500.00
+                  </div>
+                </div>
+              </ShoppingItem>
+            </div>
+          </ShoppingSummary>
+          <ShoppingTotal
+            selectedFeatures={
+              Object {
+                "Display": Object {
+                  "cost": 1500,
+                  "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+                },
+                "Operating System": Object {
+                  "cost": 200,
+                  "name": "Ubuntu Linux 16.04",
+                },
+                "Processor": Object {
+                  "cost": 1200,
+                  "name": "Professor X AMD Fire Breather with sidewinder technology",
+                },
+                "Video Card": Object {
+                  "cost": 1150.98,
+                  "name": "Toyota Corolla 1.5v",
+                },
               }
             }
           >
             <div
-              className="summary__option"
-              key="Processor-0"
+              className="summary__total"
             >
               <div
-                className="summary__option__label"
+                className="summary__total__label"
               >
-                Processor
-                 
+                Total
               </div>
               <div
-                className="summary__option__value"
+                className="summary__total__value"
               >
-                Professor X AMD Fire Breather with sidewinder technology
-              </div>
-              <div
-                className="summary__option__cost"
-              >
-                $1,200.00
+                $4,050.98
               </div>
             </div>
-          </ShoppingItem>
-          <ShoppingItem
-            feature="Operating System"
-            id="Operating System-1"
-            key="Operating System-1"
-            selectedOption={
-              Object {
-                "cost": 200,
-                "name": "Ubuntu Linux 16.04",
-              }
-            }
-          >
-            <div
-              className="summary__option"
-              key="Operating System-1"
-            >
-              <div
-                className="summary__option__label"
-              >
-                Operating System
-                 
-              </div>
-              <div
-                className="summary__option__value"
-              >
-                Ubuntu Linux 16.04
-              </div>
-              <div
-                className="summary__option__cost"
-              >
-                $200.00
-              </div>
-            </div>
-          </ShoppingItem>
-          <ShoppingItem
-            feature="Video Card"
-            id="Video Card-2"
-            key="Video Card-2"
-            selectedOption={
-              Object {
-                "cost": 1150.98,
-                "name": "Toyota Corolla 1.5v",
-              }
-            }
-          >
-            <div
-              className="summary__option"
-              key="Video Card-2"
-            >
-              <div
-                className="summary__option__label"
-              >
-                Video Card
-                 
-              </div>
-              <div
-                className="summary__option__value"
-              >
-                Toyota Corolla 1.5v
-              </div>
-              <div
-                className="summary__option__cost"
-              >
-                $1,150.98
-              </div>
-            </div>
-          </ShoppingItem>
-          <ShoppingItem
-            feature="Display"
-            id="Display-3"
-            key="Display-3"
-            selectedOption={
-              Object {
-                "cost": 1500,
-                "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
-              }
-            }
-          >
-            <div
-              className="summary__option"
-              key="Display-3"
-            >
-              <div
-                className="summary__option__label"
-              >
-                Display
-                 
-              </div>
-              <div
-                className="summary__option__value"
-              >
-                15.6" UHD (3840 x 2160) 60Hz Bright Lights and Knobs
-              </div>
-              <div
-                className="summary__option__cost"
-              >
-                $1,500.00
-              </div>
-            </div>
-          </ShoppingItem>
-          <div
-            className="summary__total"
-          >
-            <div
-              className="summary__total__label"
-            >
-              Total
-            </div>
-            <div
-              className="summary__total__value"
-            >
-              $4,050.98
-            </div>
-          </div>
+          </ShoppingTotal>
         </section>
       </ShoppingCart>
     </main>

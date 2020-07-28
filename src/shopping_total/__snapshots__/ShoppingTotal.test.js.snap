@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing ShoppingTotal Component renders as expected 1`] = `
+<div
+  className="summary__total"
+>
+  <div
+    className="summary__total__label"
+  >
+    Total
+  </div>
+  <div
+    className="summary__total__value"
+  >
+    $900.00
+  </div>
+</div>
+`;
+
+exports[`Testing ShoppingTotal Component renders as expected without props 1`] = `
+<div
+  className="summary__total"
+>
+  <div
+    className="summary__total__label"
+  >
+    Total
+  </div>
+  <div
+    className="summary__total__value"
+  >
+    $0.00
+  </div>
+</div>
+`;

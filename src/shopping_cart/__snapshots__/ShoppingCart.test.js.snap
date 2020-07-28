@@ -7,44 +7,46 @@ exports[`Testing ShoppingCart Component renders as expected 1`] = `
   <h2>
     Your cart
   </h2>
-  <div
-    className="summary__option"
-  >
+  <div>
     <div
-      className="summary__option__label"
+      className="summary__option"
     >
-      Processor
-       
+      <div
+        className="summary__option__label"
+      >
+        Processor
+         
+      </div>
+      <div
+        className="summary__option__value"
+      >
+        17th Generation Intel Core HB (7 Core with donut spare)
+      </div>
+      <div
+        className="summary__option__cost"
+      >
+        $700.00
+      </div>
     </div>
     <div
-      className="summary__option__value"
+      className="summary__option"
     >
-      17th Generation Intel Core HB (7 Core with donut spare)
-    </div>
-    <div
-      className="summary__option__cost"
-    >
-      $700.00
-    </div>
-  </div>
-  <div
-    className="summary__option"
-  >
-    <div
-      className="summary__option__label"
-    >
-      Operating System
-       
-    </div>
-    <div
-      className="summary__option__value"
-    >
-      Ubuntu Linux 16.04
-    </div>
-    <div
-      className="summary__option__cost"
-    >
-      $200.00
+      <div
+        className="summary__option__label"
+      >
+        Operating System
+         
+      </div>
+      <div
+        className="summary__option__value"
+      >
+        Ubuntu Linux 16.04
+      </div>
+      <div
+        className="summary__option__cost"
+      >
+        $200.00
+      </div>
     </div>
   </div>
   <div
@@ -71,6 +73,7 @@ exports[`Testing ShoppingCart Component renders as expected without props 1`] = 
   <h2>
     Your cart
   </h2>
+  <div />
   <div
     className="summary__total"
   >
